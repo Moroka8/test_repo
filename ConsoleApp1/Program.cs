@@ -9,8 +9,12 @@ if (command != null) {
         Console.WriteLine("Set value:\n");
         a = Int32.Parse(Console.ReadLine());
     }
-    else if (command == "b") {
+    else if (command == "b")
+    {
         Console.WriteLine("Set value:\n");
         b = Int32.Parse(Console.ReadLine());
+    }
+    else if (command == "+") {
+        Console.WriteLine(a + b);
     }
 }
