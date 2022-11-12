@@ -15,6 +15,10 @@ if (command != null)
         Console.WriteLine("Set value:\n");
         b = Int32.Parse(Console.ReadLine());
     }
+    else if (command == "/")
+    {
+        Console.WriteLine(a / b);
+    }
     else if (command == "+") {
         Console.WriteLine(a + b);
     }
