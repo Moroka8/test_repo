@@ -22,4 +22,8 @@ if (command != null)
     {
         Console.WriteLine(a - b);
     }
+    else if (command == "*")
+    {
+        Console.WriteLine(a * b);
+    }
 }
