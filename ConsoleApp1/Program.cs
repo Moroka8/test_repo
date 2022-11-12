@@ -1,0 +1,2 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Type:\n\ta - insert value of a\n\tb - insert value of b\n\t+ - perform summation\n\t- - perform substraction\n\t* - perform multiplication\n\t/ - perform division");
